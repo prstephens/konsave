@@ -11,8 +11,8 @@ echo '~~~~~~~~~~~~~~~~~~~~~~~~~~~
 echo 'Installing konsave...'
 
 # Copy 'konsave' to ~/.local/bin/
-cp ./konsave ~/.local/bin
-chmod +x ~/.local/bin/konsave
+sudo cp konsave /usr/bin/
+sudo chmod +x /usr/bin/konsave
 
 # Done
 echo 'Installed successfully! You can now delete this folder.'
